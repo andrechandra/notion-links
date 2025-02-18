@@ -18,11 +18,11 @@ const merriweather = Merriweather({
 })
 
 export const metadata: Metadata = {
-  title: 'Next.js + Tailwind CSS Starter Template',
+  title: 'Andre Chandra Putra | Notion Link',
   description:
-    'A starter template with Next.js, Tailwind CSS, TypeScript, and shadcn/ui',
+    'A personalized Linktree-style website built with Next.js, using the Notion API as a CMS for seamless link management.',
   icons: {
-    icon: [{ url: '/images/logo.svg', type: 'image/svg+xml' }],
+    icon: '/images/logo.svg',
     shortcut: '/images/logo.svg',
   },
 }

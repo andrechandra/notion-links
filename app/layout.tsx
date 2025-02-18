@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   description:
     'A personalized Linktree-style website built with Next.js, using the Notion API as a CMS for seamless link management.',
   icons: {
-    icon: '/images/logo.svg',
-    shortcut: '/images/logo.svg',
+    icon: '/logo/tab-icon.svg',
+    shortcut: '/logo/tab-icon.svg',
   },
 }
 

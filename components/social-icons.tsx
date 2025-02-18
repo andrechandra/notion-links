@@ -21,6 +21,7 @@ import {
   SiMedium,
   SiDevdotto,
   SiThreads,
+  SiGoogledocs,
 } from 'react-icons/si'
 
 export const SocialIcons = ({ icon }: { icon: string }) => {
@@ -71,6 +72,8 @@ export const SocialIcons = ({ icon }: { icon: string }) => {
       return <SiDevdotto className="h-5 w-5" />
     case 'threads':
       return <SiThreads className="h-5 w-5" />
+    case 'resume':
+      return <SiGoogledocs className="h-5 w-5" />
     default:
       return null
   }
